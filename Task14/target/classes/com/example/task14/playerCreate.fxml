@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="340.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task14.PlayerCreate">
+   <children>
+      <VBox prefHeight="340.0" prefWidth="258.0">
+         <children>
+            <FlowPane prefHeight="108.0" prefWidth="258.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#settingButtonClick" style="-fx-background-color: lightgray;" text="Настройки">
+                     <FlowPane.margin>
+                        <Insets left="20.0" />
+                     </FlowPane.margin></Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </FlowPane>
+            <FlowPane prefHeight="36.0" prefWidth="322.0">
+               <children>
+                  <Label text="Введите имя: ">
+                     <FlowPane.margin>
+                        <Insets left="15.0" />
+                     </FlowPane.margin></Label>
+                  <TextField fx:id="playerNameText" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </FlowPane>
+            <FlowPane prefHeight="179.0" prefWidth="534.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#readyButtonClick" style="-fx-background-color: lightgray;" text="Готово">
+                     <FlowPane.margin>
+                        <Insets left="135.0" top="20.0" />
+                     </FlowPane.margin></Button>
+               </children>
+            </FlowPane>
+         </children>
+      </VBox>
+      <VBox layoutX="274.0" prefHeight="340.0" prefWidth="258.0">
+         <children>
+            <FlowPane prefHeight="50.0" prefWidth="258.0">
+               <children>
+                  <Label text="Список игроков:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <FlowPane.margin>
+                        <Insets left="60.0" top="10.0" />
+                     </FlowPane.margin>
+                  </Label>
+               </children>
+            </FlowPane>
+            <Pane prefHeight="289.0" prefWidth="258.0">
+               <children>
+                  <Text fx:id="playerListText" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="258.4">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
