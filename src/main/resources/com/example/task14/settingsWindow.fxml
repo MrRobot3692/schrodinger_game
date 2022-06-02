@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="309.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task14.SettingsWindow">
+   <children>
+      <VBox prefHeight="340.0" prefWidth="532.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#backButtonClick" style="-fx-background-color: lightgray;" text="Назад">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <FlowPane prefHeight="114.0" prefWidth="514.0">
+               <children>
+                  <FlowPane prefHeight="86.0" prefWidth="202.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Шанс" wrappingWidth="201.96483993530273">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Клоичество неудачных попыток, после которых игроку выдается дополнительная попытка отыграться" wrappingWidth="200.51950073242188" />
+                     </children>
+                     <FlowPane.margin>
+                        <Insets top="20.0" />
+                     </FlowPane.margin>
+                  </FlowPane>
+                  <ComboBox fx:id="extraComboBox" prefWidth="150.0">
+                     <FlowPane.margin>
+                        <Insets left="20.0" />
+                     </FlowPane.margin></ComboBox>
+                  <FlowPane prefHeight="27.0" prefWidth="532.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#saveButtonClick" style="-fx-background-color: lightgray;" text="Сохранить">
+                           <FlowPane.margin>
+                              <Insets left="200.0" />
+                           </FlowPane.margin></Button>
+                     </children>
+                     <FlowPane.margin>
+                        <Insets top="130.0" />
+                     </FlowPane.margin>
+                  </FlowPane>
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="-20.0" />
+               </VBox.margin></FlowPane>
+         </children></VBox>
+   </children>
+</AnchorPane>
