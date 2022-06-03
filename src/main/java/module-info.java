@@ -1,7 +1,4 @@
-/** модуль
- *
- */
-module com.example.task14 {
+module com.example.schrodinger_game {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -13,8 +10,7 @@ module com.example.task14 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.media;
-    requires org.testng;
 
-    opens com.example.task14 to javafx.fxml;
-    exports com.example.task14;
+    opens com.example.schrodinger_game to javafx.fxml;
+    exports com.example.schrodinger_game;
 }

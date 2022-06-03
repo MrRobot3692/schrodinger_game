@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JavadocGenerationManager">
-    <option name="OUTPUT_DIRECTORY" value="D:/HTML/Javadocs" />
-    <option name="OPTION_SCOPE" value="public" />
-    <option name="OPTION_NAVIGATOR" value="false" />
-    <option name="OPTION_INDEX" value="false" />
-    <option name="OPTION_SEPARATE_INDEX" value="false" />
-    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
-    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
-    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false" />
-    <option name="OTHER_OPTIONS" value="-encoding utf8 -docencoding utf8 -charset utf8" />
-    <option name="LOCALE" value="ru" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
